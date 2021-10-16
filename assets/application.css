@@ -115,49 +115,6 @@ a:hover {
   padding: 0 2rem;
 }
 
-.list {
-  margin: 0 auto;
-  max-width: 1335px;
-  position: relative;
-  width: 100%;
-  padding: 0 2rem;
-}
-
-.clearfix:after {
-  clear: both;
-  content: " ";
-  display: table;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
-.reset {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.rounded {
-  border-radius: 50%;
-}
-
 footer {
   margin: 0 auto;
   max-width: 1335px;
