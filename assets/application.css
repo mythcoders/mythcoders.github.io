@@ -39,7 +39,6 @@ body {
 
 h1 {
   font-size: 3.5rem;
-  /* color: rgba(255, 255, 255, 0.87); */
   color: #B07E4A;
   font-weight: 700;
   text-transform: uppercase;
@@ -47,7 +46,6 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  /* color: rgba(255, 255, 255, 0.87); */
   color: #B07E4A;
   font-weight: 700;
   text-transform: uppercase;
@@ -296,7 +294,7 @@ footer a:last-child {
   margin-top: 12%;
 }
 
-.content-section .panel a.ico-visit {
+.content-section .panel a {
   margin-top: 1rem;
   font-weight: 700;
   font-size: 1.4rem;
@@ -354,12 +352,6 @@ footer a:last-child {
   padding-left: 2rem;
 }
 
-.about div.testimonial section img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-
 .about div.testimonial section span {
   display: block;
 }
@@ -401,7 +393,6 @@ footer a:last-child {
 
 .grid {
   display: grid;
-  grid-auto-rows: 1fr;
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
@@ -427,6 +418,10 @@ footer a:last-child {
 
 .grid .panel p {
   font-size: 1.6rem;
+}
+
+.grid .panel img {
+  width: 350px;
 }
 
 .svg-inline--fa {
