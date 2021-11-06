@@ -64,19 +64,19 @@ h4 {
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.87);
   font-weight: 700;
 }
 
 h6 {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: rgba(255, 255, 255, 0.87);
   font-weight: 700;
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 200;
   line-height: 150%;
 }
@@ -275,7 +275,6 @@ footer a:last-child {
   padding: 0;
   margin: 0;
   margin: 0 0 4rem;
-  font-size: 2.4rem;
 }
 
 .about p {
